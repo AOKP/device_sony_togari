@@ -27,6 +27,7 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/sony/togari/bluetooth
 
 # Kernel properties
 TARGET_KERNEL_CONFIG := cm_rhine_togari_row_defconfig
+SOMC_DTS_TARGET := togari_row
 
 # Partition information
 BOARD_VOLD_MAX_PARTITIONS := 26
