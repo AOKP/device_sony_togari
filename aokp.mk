@@ -1,8 +1,8 @@
 # Inherit CM common Phone stuff.
-$(call inherit-product, vendor/aokp/config/common_full_phone.mk)
+$(call inherit-product, vendor/aokp/configs/common_full_phone.mk)
 
 # Enhanced NFC
-$(call inherit-product, vendor/aokp/config/nfc_enhanced.mk)
+$(call inherit-product, vendor/aokp/configs/nfc_enhanced.mk)
 
 $(call inherit-product, device/sony/togari/full_togari.mk)
 
