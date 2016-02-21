@@ -43,6 +43,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
    $(LOCAL_PATH)/sensor_def_qcomdev.conf:system/etc/sensor_def_qcomdev.conf
 
+# TWRP
+PRODUCT_COPY_FILES += \
+   $(LOCAL_PATH)/twrp.fstab:recovery/root/etc/twrp.fstab
+
 # Thermal manager
 PRODUCT_COPY_FILES += \
    $(LOCAL_PATH)/thermanager.xml:system/etc/thermanager.xml
